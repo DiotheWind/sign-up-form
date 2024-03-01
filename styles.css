@@ -1,6 +1,6 @@
 @font-face {
     font-family: norse-bold;
-    src: url()
+    src: url(./font/Norse-Bold.otf)
 }
 
 * {
@@ -14,23 +14,50 @@ body {
 }
 
 .left-section {
-    width: 40vw;
+    width: 35vw;
     height: 100vh;
-    background: url("./images/background.jpg") no-repeat;
+    background: url("./images/background.jpg") round;
     background-size: contain;
+    position: relative;
 }
 
 .logo {
-    width: 100vw;
+    width: 100%;
     margin-top: 150px;
     height: 130px;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.center-content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .odin-logo {
     height: 100%;
 }
 
-span {
+.center-content span {
+    font-family: "norse-bold", sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+
+.credit {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    text-align: center; 
+    margin: auto; 
+}
+
+.credit,
+.credit a {
     color: white;
 }
 
