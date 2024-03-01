@@ -16,8 +16,8 @@ body {
 .left-section {
     width: 35vw;
     height: 100vh;
-    background: url("./images/background.jpg") round;
-    background-size: contain;
+    background: url("./images/background.jpg") no-repeat;
+    background-size: cover;
     position: relative;
 }
 
