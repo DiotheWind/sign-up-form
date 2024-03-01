@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+}
+
+.left-section {
+    width: 40vw;
+    height: 100vh;
+    background: round url("./images/background.jpg");
+}
+
+
+
