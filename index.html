@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="left-section">
@@ -26,7 +27,7 @@
 
         <div class="right-section-form">
             <h3>Let's do this!</h3>
-            <form>
+            <form id="form">
                 <div class="form-row">
                     <div class="form-control">
                         <label for="first-name">FIRST NAME</label>
@@ -59,13 +60,14 @@
                     <div class="form-control">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
                         <input type="password" name="confirm-password" id="confirm-password">
+                        <p class="password-match-check"></p>
                     </div>
                 </div>
             </form>
         </div>
 
         <div class="right-section-bottom">
-            <button type="submit"><b>Create Account</b></button>
+            <button type="submit" form="form"><b>Create Account</b></button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
